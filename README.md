@@ -1,4 +1,7 @@
-Congratulations for reaching the optional challenges! Today you can choose between two paths: 
+# Comments
+This exercise was finished during my first day with Bootstrap. Original instructions from LeWagon below.
+
+Congratulations for reaching the optional challenges! Today you can choose between two paths:
 - if you want to keep building complex interfaces, stay on this **Slack Copycat** challenge;
 - if you'd rather learn about Web **Accessibility**, you can jump to the next challenge.
 
