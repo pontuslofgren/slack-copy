@@ -18,99 +18,91 @@
 
     <!-- TODO: Slack copycat markup -->
 
-    <div class="wrapper">
-      <div class="section section-channels sidebar">
-        <p class="white-bold active">LW</p>
-        <p>SL</p>
+    <div class="d-flex h-100">
+      <!-- CHANNELS SECTION -->
+      <div class="p-3 slack-channels-sidebar">
+        <p class="fw-bold text-white bg-secondary p-1 rounded text-center">LW</p>
+        <p class="fw-bold text-white p-1 rounded text-center">SL</p>
       </div>
 
-      <div class="section section-channel sidebar">
-        <h2 class="white-bold">Le Wagon</h2>
-        <p><i class="fa-solid fa-circle online status"></i>arthur-littm</p>
+      <!-- CHANNEL SECTION -->
+      <div class="p-3 slack-channel-sidebar">
+        <h2 class="fw-bold text-white">Le Wagon</h2>
+        <div class="d-flex align-items-center"><i class="fa-solid fa-circle online status me-1"></i>arthur-littm</div>
 
-        <p class="white-bold title-w-icon">Channels <i class="fa-solid fa-plus large right"></i></p>
-        <ul>
-          <li><i class="fa-brands fa-slack"></i>general</li>
-          <li><i class="fa-brands fa-slack"></i>help</li>
-          <li class="active"><i class="fa-brands fa-slack"></i>design</li>
-          <li><i class="fa-solid fa-lock"></i>friday-drinks</li>
-          <li><i class="fa-solid fa-lock"></i>climbing</li>
+        <div class="d-flex justify-content-between align-items-center mt-2"><p class="text-white fw-bold m-0">Channels</p><i class="fa-solid fa-plus large text-white"></i></div>
+        <ul class="p-0 m-0 list-unstyled">
+          <li><i class="fa-brands fa-slack me-1"></i>general</li>
+          <li><i class="fa-brands fa-slack me-1"></i>help</li>
+          <li class="text-white"><i class="fa-brands fa-slack me-1"></i>design</li>
+          <li><i class="fa-solid fa-lock me-1"></i>friday-drinks</li>
+          <li><i class="fa-solid fa-lock me-1"></i>climbing</li>
         </ul>
 
-        <p class="white-bold title-w-icon">Direct messages <i class="fa-solid fa-plus large right"></i></p>
-        <ul>
-          <li><i class="fa-solid fa-circle online status"></i>Matz</li>
-          <li><i class="fa-solid fa-circle online status"></i>ATuring</li>
-          <li><i class="fa-solid fa-circle status"></i>SteveWozniak</li>
-          <li><i class="fa-solid fa-circle status"></i>Zuckerberg</li>
+        <div class="d-flex justify-content-between align-items-center mt-2"><p class="text-white fw-bold m-0">Direct messages</p><i class="fa-solid fa-plus large text-white"></i></div>
+        <ul class="p-0 m-0 list-unstyled">
+          <li class="d-flex align-items-center"><i class="fa-solid fa-circle status me-1 online"></i>Matz</li>
+          <li class="d-flex align-items-center"><i class="fa-solid fa-circle status me-1 online"></i>ATuring</li>
+          <li class="d-flex align-items-center"><i class="fa-solid fa-circle status me-1"></i>SteveWozniak</li>
+          <li class="d-flex align-items-center"><i class="fa-solid fa-circle status me-1"></i>Zuckerberg</li>
         </ul>
       </div>
 
-      <div class="section section-chat">
+      <div class="d-flex flex-column w-100 bg-white py-2 px-4">
 
-        <div class="chat-title">
-          <h3><i class="fa-brands fa-slack"></i>design</h3>
+        <div class="border-bottom py-2">
+          <h3 class="d-flex gap-2"><i class="fa-brands fa-slack"></i>design</h3>
         </div>
-        <div class="chat-message-area">
+
+        <div class="d-flex flex-column flex-grow-1">
 
           <!-- message -->
 
-          <div class="message">
-            <div class="profile-pic">
-              <img src="https://kitt.lewagon.com/placeholder/users/arthur-littm" class="rounded-3" height="40">
-            </div>
-            <div class="message-content">
-              <p class="bold-black">arthur-littm</p>
-              <p>Hey everyone 👋 We’ve just launched a new Le Wagon UI Kit 🚀 👉 https://uikit.lewagon.com/</p>
+          <div class="d-flex gap-2 my-3">
+            <img src="https://avatars.githubusercontent.com/u/33777796?v=4" class="rounded-3" height="40">
+            <div>
+              <p class="fw-bold mb-0">pontus</p>
+              <p>Check out this slack mockup I just made! 👋</p>
             </div>
           </div>
 
-          <div class="message">
-            <div class="profile-pic">
-              <img src="https://kitt.lewagon.com/placeholder/users/cveneziani" class="rounded-3" height="40">
-            </div>
-            <div class="message-content">
-              <p class="bold-black">cveneziani</p>
-              <p>yay! 🤘</p>
+          <div class="d-flex gap-2 my-3">
+            <img src="https://media.licdn.com/dms/image/D4D03AQFGWxLDY0M8pg/profile-displayphoto-shrink_400_400/0/1687950190289?e=1704326400&v=beta&t=XBb_0f-eguT4wKFx0w5Ar_u6qKJB3DvFk_8-L8UtUMY" class="rounded-3" height="40">
+            <div>
+              <p class="fw-bold mb-0">twata</p>
+              <p>That's really cool. What did you learn?</p>
             </div>
           </div>
 
-          <div class="message">
-            <div class="profile-pic">
-              <img src="https://kitt.lewagon.com/placeholder/users/pdunleav" class="rounded-3" height="40">
-            </div>
-            <div class="message-content">
-              <p class="bold-black">pdunleav</p>
-              <p>That looks great, why don't you add a .card like on dribbble with a cool hover effect? 😎</p>
-            </div>
-          </div>
-
-          <div class="message">
-            <div class="profile-pic">
-              <img src="https://kitt.lewagon.com/placeholder/users/arthur-littm" class="rounded-3" height="40">
-            </div>
-            <div class="message-content">
-              <p class="bold-black">arthur-littm</p>
-              <p>Hi designers! A little tutorial I’ve made (french only, 🇬🇧 version coming soon!!!) covering:</p>
-              <p>- UX data (GA, Hotjar) and how to use it to re-think your sitemap</p>
-              <p>- Advanced UX workflow (Sketch > Invision > Abstract)</p>
-              <p>👉 https://kitt.lewagon.com/knowledge/tutorials/ux_advanced</p>
-              <p>Hope you’ll enjoy 📺 !</p>
+          <div class="d-flex gap-2 my-3">
+            <img src="https://avatars.githubusercontent.com/u/33777796?v=4" class="rounded-3" height="40">
+            <div>
+              <p class="fw-bold mb-0">pontus</p>
+              <p>I learned how to use <a href="#">Boostrap</a>! Initially I used a lot of my own CSS....</p>
+              <p>...but then I realized a lot of it could be replaced with Bootstrap classes.</p>
             </div>
           </div>
 
-          <div class="message">
-            <div class="profile-pic">
-              <img src="https://avatars.githubusercontent.com/u/33777796?v=4" class="rounded-3" height="40">
-            </div>
-            <div class="message-content">
-              <p class="bold-black">pontus</p>
-              <p>Guys, anyone up for a coffee? ☕️</p>
+          <div class="d-flex gap-2 my-3">
+            <img src="https://media.licdn.com/dms/image/D4D03AQGZw65JwUrVqQ/profile-displayphoto-shrink_400_400/0/1688461731301?e=1704326400&v=beta&t=eimSINOYcFw2HB41bEcTgoJ-DlVsKZJObMxaIq10Zu0" class="rounded-3" height="40">
+            <div>
+              <p class="fw-bold mb-0">joakim</p>
+              <p>That's really cool! No keep on learning!</p>
             </div>
           </div>
+
+          <div class="d-flex gap-2 my-3">
+            <img src="https://avatars.githubusercontent.com/u/33777796?v=4" class="rounded-3" height="40">
+            <div>
+              <p class="fw-bold mb-0">pontus</p>
+              <p>Alright, will do. Thanks! 🙏</p>
+            </div>
+          </div>
+
+
 
         </div>
-        <div class="chat-message-composer">
+        <div class="py-3">
 
           <form>
             <input type="text" class="form-control rounded-3" id="message" aria-describedby="message" placeholder="Type your message...">
