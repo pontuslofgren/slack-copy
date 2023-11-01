@@ -1,0 +1,38 @@
+.chat-title {
+  height: 50px;
+  border-bottom: 1px solid lightgray;
+}
+
+.chat-title i {
+  margin-right: 5px;
+}
+
+.chat-message-area {
+  flex-grow: 1;
+}
+
+.chat-message-composer {
+  height: 50px;
+}
+
+.bold-black {
+  font-weight: bold;
+}
+
+.message p {
+  margin: 0;
+}
+
+.message {
+  display: flex;
+  align-items:flex-start;
+  padding: 15px 0;
+}
+
+.profile-pic {
+  flex: 0 0 50px;
+}
+
+.message-content {
+  flex: 1 1 auto;
+}

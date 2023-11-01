@@ -1,0 +1,30 @@
+/* TODO: slack layout */
+
+.wrapper {
+  display:flex;
+  height: 100%;
+  background-color: aliceblue;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+}
+
+.section-channels {
+  flex: 0 0 75px;
+  background-color:#1C151B;
+}
+
+.section-channel {
+  flex: 0 0 200px;
+  background-color: #4B3949;
+}
+
+.section-chat {
+  flex: 1 1 auto;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+}

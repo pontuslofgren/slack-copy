@@ -1,0 +1,63 @@
+.sidebar {
+  color: #948B94;
+}
+
+.white-bold {
+  color: white;
+  font-weight: bold;
+}
+
+.section-channels p {
+  padding: 8px 8px;
+  font-weight: bold;
+  border-radius: 4px;
+  text-align: center;
+  font-size: 1.1em;
+}
+
+.section-channels>.active {
+  background-color: #40383F;
+}
+
+.section-channel .active {
+  color: white;
+}
+
+.section-channel .title-w-icon {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+.section-channel ul {
+  padding: 0;
+  margin: 0;
+}
+
+.section-channel li {
+  list-style-type: none;
+}
+
+.section-channel li i {
+  margin-right: 5px;
+}
+
+.section i.status {
+  font-size: 0.5em;
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
+.section i.online {
+  color: #26E3AF;
+}
+
+.section i.large {
+  font-size: 1em;
+}
+
+i.right {
+  float: right;
+}
